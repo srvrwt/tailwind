@@ -4,12 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind CDN Example</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind</title>
+    <script src="/tailwind.js"></script>
 </head>
 
-<body class="bg-gray-100 text-gray-800">
-    <h1 class="text-3xl font-bold underline">This is my first git project</h1>
+<body class="text-white">
+
+    <div class="bg-[url('src/img/hero-bg.svg')] bg-cover bg-center ">
+        <header class="flex gap-10 justify-between max-w-screen-md mx-auto py-3 px-8 rounded-40px" style="background-color:#ffffff0A;">
+            <figure class="logo">Nkol.Ai</figure>
+            <nav>
+                <ul class="flex gap-10 justify-center color-white">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Integrations</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="nav-btn">Get started</a>
+        </header>
+        <div class="max-w-screen-xl mx-auto text-center flex flex-col gap-4   p-[100px]">
+            <h1 class=" text-6xl">Empowering Entrepreneurs with the Future of Technology</h1>
+            <p class="text-lg color-[#9B9CA1]">Unlock the full potential of AI to streamline your business processes,
+                enhance your content creation, and drive innovation. Nikol Digital provides a suite of powerful tools
+                designed specifically for entrepreneurs looking to scale their businesses and optimize their workflows.
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
